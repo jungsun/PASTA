@@ -1,0 +1,81 @@
+/*
+ * metismenu - v2.0.2
+ * A jQuery menu plugin
+ * https://github.com/onokumus/metisMenu
+ *
+ * Made by Osman Nuri Okumus
+ * Under MIT License
+ */
+
+.-pasta-metismenu .-pasta-plus-minus, .-pasta-metismenu .-pasta-plus-times {
+  float: right
+}
+
+.-pasta-metismenu .-pasta-arrow {
+  float: right;
+  line-height: 1.42857
+}
+
+.-pasta-metismenu .-pasta-glyphicon.-pasta-arrow:before {
+  content: "\e079"
+}
+
+.-pasta-metismenu .-pasta-active > a > .-pasta-glyphicon.-pasta-arrow:before {
+  content: "\e114"
+}
+
+.-pasta-metismenu .-pasta-fa.-pasta-arrow:before {
+  content: "\f104"
+}
+
+.-pasta-metismenu .-pasta-active > a > .-pasta-fa.-pasta-arrow:before {
+  content: "\f107"
+}
+
+.-pasta-metismenu .-pasta-ion.-pasta-arrow:before {
+  content: "\f3d2"
+}
+
+.-pasta-metismenu .-pasta-active > a > .-pasta-ion.-pasta-arrow:before {
+  content: "\f3d0"
+}
+
+.-pasta-metismenu .-pasta-fa.-pasta-plus-minus:before, .-pasta-metismenu .-pasta-fa.-pasta-plus-times:before {
+  content: "\f067"
+}
+
+.-pasta-metismenu .-pasta-active > a > .-pasta-fa.-pasta-plus-times {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg)
+}
+
+.-pasta-metismenu .-pasta-active > a > .-pasta-fa.-pasta-plus-minus:before {
+  content: "\f068"
+}
+
+.-pasta-metismenu .-pasta-collapse {
+  display: none
+}
+
+.-pasta-metismenu .-pasta-collapse.-pasta-in {
+  display: block
+}
+
+.-pasta-metismenu .-pasta-collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -webkit-transition-duration: .35s;
+  transition-duration: .35s;
+  -webkit-transition-property: height, visibility;
+  transition-property: height, visibility
+}
+
+
+
+
+
+

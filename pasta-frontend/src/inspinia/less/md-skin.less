@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,300,500,700");
+
+@md-color-primary: #1AB394;
+@md-shadow-main: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+
+body.-pasta-md-skin {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.-pasta-md-skin {
+
+  .-pasta-nav-header {
+    background: url("patterns/4.png") no-repeat;
+
+  }
+
+  .-pasta-label, .-pasta-badge {
+    font-family: 'Roboto';
+  }
+
+  .-pasta-font-bold {
+    font-weight: 500;
+  }
+
+  .-pasta-wrapper-content {
+    padding: 30px 20px 40px;
+  }
+
+  @media (max-width: 768px) {
+    .-pasta-wrapper-content {
+      padding: 30px 0 40px;
+    }
+  }
+
+  .-pasta-page-heading {
+    border-bottom: none !important;
+    border-top: 0;
+    padding: 0 10px 20px 10px;
+    box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.34), 0 0 6px 0 rgba(0, 0, 0, 0.14);
+  }
+
+  .-pasta-full-height-layout .-pasta-page-heading {
+    border-bottom: 1px solid @border-color !important;
+  }
+
+  .-pasta-ibox {
+    clear: both;
+    margin-bottom: 25px;
+    margin-top: 0;
+    padding: 0;
+    box-shadow: @md-shadow-main;
+  }
+
+  .-pasta-ibox.-pasta-border-bottom {
+    border-bottom: none !important;
+  }
+
+  .-pasta-ibox-title, .-pasta-ibox-content {
+    border-style: none;
+  }
+
+  .-pasta-ibox-title h5 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  a.-pasta-close-canvas-menu {
+    color: #ffffff;
+  }
+
+  .-pasta-welcome-message {
+    color: #ffffff;
+    font-weight: 300;
+  }
+
+  #top-search::-moz-placeholder {
+    color: #ffffff;
+  }
+
+  #top-search::-webkit-input-placeholder {
+    color: #ffffff;
+  }
+
+  #nestable-output,
+  #nestable2-output {
+    font-family: 'Roboto', lucida grande, lucida sans unicode, helvetica, arial, sans-serif;
+  }
+
+  .-pasta-landing-page {
+    font-family: 'Roboto', helvetica, arial, sans-serif;
+  }
+
+  .-pasta-landing-page.-pasta-navbar-default.-pasta-navbar-scroll {
+    background-color: #fff !important;
+  }
+  .-pasta-landing-page.-pasta-navbar-default {
+    background-color: transparent !important;
+    box-shadow: none;
+  }
+  .-pasta-landing-page.-pasta-navbar-default .-pasta-nav li a {
+    font-family: 'Roboto', helvetica, arial, sans-serif;
+  }
+
+  .-pasta-nav > li > a {
+    color: @text-color;
+    padding: 14px 20px 14px 25px;
+  }
+
+  .-pasta-nav.-pasta-navbar-right > li > a {
+    color: #ffffff;
+  }
+
+  .-pasta-nav > li.-pasta-active > a {
+    color: darken(@text-color, 5%);
+    font-weight: 700;
+  }
+
+  .-pasta-navbar-default .-pasta-nav > li > a:hover, .-pasta-navbar-default .-pasta-nav > li > a:focus {
+    font-weight: 700;
+    color: darken(@text-color, 5%);
+  }
+
+  .-pasta-nav .-pasta-open > a, .-pasta-nav .-pasta-open > a:hover, .-pasta-nav .-pasta-open > a:focus {
+    background: @navy;
+  }
+
+  .-pasta-navbar-top-links li {
+    display: inline-table;
+  }
+
+  .-pasta-navbar-top-links .-pasta-dropdown-menu li {
+    display: block;
+  }
+
+  .-pasta-pace-done .-pasta-nav-header {
+    transition: all 0.4s;
+  }
+
+  .-pasta-nav > li.-pasta-active {
+    background: lighten(@gray, 2%);
+  }
+
+  .-pasta-nav-second-level li a {
+    padding: 7px 10px 7px 52px;
+  }
+
+  .-pasta-navbar-top-links li a {
+    padding: 20px 10px;
+    min-height: 50px;
+  }
+
+  .-pasta-nav > li > a {
+    font-weight: 400;
+  }
+
+  .-pasta-navbar-static-side .-pasta-nav > li > a:focus, .-pasta-navbar-static-side .-pasta-nav > li > a:hover {
+    background-color: inherit;
+  }
+
+  .-pasta-navbar-top-links .-pasta-dropdown-menu li a {
+    padding: 3px 20px;
+    min-height: inherit;
+  }
+
+  .-pasta-nav-header .-pasta-navbar-fixed-top a {
+    color: #ffffff;
+  }
+
+  .-pasta-nav-header .-pasta-text-muted {
+    color: #ffffff;
+  }
+
+  .-pasta-navbar-form-custom .-pasta-form-control {
+    font-weight: 300;
+  }
+
+  .-pasta-mini-navbar .-pasta-nav-second-level {
+    background-color: inherit;
+  }
+
+  .-pasta-mini-navbar li.-pasta-active .-pasta-nav-second-level {
+    left: 65px
+  }
+
+  .-pasta-canvas-menu.-pasta-mini-navbar .-pasta-nav-second-level {
+    background: inherit;
+  }
+
+  .-pasta-pace-done .-pasta-navbar-static-side, .-pasta-pace-done .-pasta-nav-header, .-pasta-pace-done li.-pasta-active, .-pasta-pace-done #page-wrapper, .-pasta-pace-done .-pasta-footer {
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+  .-pasta-navbar-fixed-top {
+    background: #fff;
+    transition-duration: 0.4s;
+    z-index: 2030;
+    border-bottom: none !important;
+  }
+
+  .-pasta-navbar-fixed-top, .-pasta-navbar-static-top {
+    background-color: @md-color-primary !important;
+    box-shadow: @md-shadow-main;
+  }
+
+  .-pasta-navbar-static-side {
+    box-shadow: @md-shadow-main;
+  }
+
+  // Right sidebar
+
+  #right-sidebar {
+    box-shadow: @md-shadow-main;
+    border: none;
+    z-index: 900;
+  }
+
+  .-pasta-white-bg .-pasta-navbar-fixed-top, .-pasta-white-bg .-pasta-navbar-static-top {
+    background: #fff !important;
+  }
+
+  .-pasta-contact-box {
+    box-shadow: @md-shadow-main;
+    border: none;
+  }
+
+  .-pasta-dashboard-header {
+    border-bottom: none !important;
+    border-top: 0;
+    padding: 20px 20px 20px 20px;
+    margin: 30px 20px 0 20px;
+    box-shadow: @md-shadow-main;
+  }
+
+  @media (max-width: 768px) {
+    .-pasta-dashboard-header {
+      margin: 20px 0 0 0;
+    }
+  }
+
+  ul.-pasta-notes li div {
+
+    box-shadow: @md-shadow-main;
+  }
+
+  .-pasta-file {
+    border: none;
+    box-shadow: @md-shadow-main;
+  }
+
+  .-pasta-mail-box {
+    background-color: #ffffff;
+    box-shadow: @md-shadow-main;
+    padding: 0;
+    margin-bottom: 20px;
+    border: none;
+  }
+
+  .-pasta-mail-box-header {
+    border: none;
+    background-color: #ffffff;
+    box-shadow: @md-shadow-main;
+    padding: 30px 20px 20px 20px;
+  }
+
+  .-pasta-mailbox-content {
+    border: none;
+    padding: 20px;
+    background: #ffffff;
+  }
+
+  .-pasta-social-feed-box {
+    border: none;
+    background: #fff;
+    margin-bottom: 15px;
+    box-shadow: @md-shadow-main;
+  }
+
+  &.-pasta-landing-page .-pasta-navbar-default {
+    background-color: transparent !important;
+    border-color: transparent;
+    transition: all 0.3s ease-in-out 0s;
+    box-shadow: none;
+  }
+
+  &.-pasta-landing-page .-pasta-navbar-default.-pasta-navbar-scroll,
+  &.-pasta-landing-page.-pasta-body-small .-pasta-navbar-default,
+  {
+    background-color: #ffffff !important;
+  }
+
+  &.-pasta-landing-page .-pasta-nav > li.-pasta-active {
+    background: inherit;
+  }
+
+  &.-pasta-landing-page .-pasta-navbar-scroll .-pasta-navbar-nav > li > a {
+    padding: 20px 10px;
+  }
+
+  &.-pasta-landing-page .-pasta-navbar-default .-pasta-nav li a {
+    font-family: 'Roboto', helvetica, arial, sans-serif;
+  }
+
+  &.-pasta-landing-page .-pasta-nav > li > a {
+    padding: 25px 10px 15px 10px;
+  }
+
+  &.-pasta-landing-page .-pasta-navbar-default .-pasta-navbar-nav > li > a:hover,
+  &.-pasta-landing-page .-pasta-navbar-default .-pasta-navbar-nav > li > a:focus {
+    background: inherit;
+    color: @navy;
+  }
+
+  &.-pasta-landing-page.-pasta-body-small .-pasta-nav.-pasta-navbar-right > li > a {
+    color: @text-color;
+  }
+
+  .-pasta-landing_link a, .-pasta-special_link a {
+    color: #ffffff !important;
+  }
+
+  &.-pasta-canvas-menu.-pasta-mini-navbar .-pasta-nav-second-level {
+    background: lighten(@gray, 2%);
+  }
+
+  &.-pasta-mini-navbar .-pasta-nav-second-level {
+    background-color: #ffffff;
+    box-shadow: @md-shadow-main;
+  }
+
+  &.-pasta-mini-navbar .-pasta-nav-second-level li a {
+    padding-left: 0;
+  }
+
+  &.-pasta-mini-navbar.-pasta-fixed-sidebar .-pasta-nav-second-level li a {
+    padding-left: 52px;
+  }
+
+  &.-pasta-top-navigation .-pasta-nav.-pasta-navbar-right > li > a {
+    padding: 15px 20px;
+    color: @text-color;
+  }
+
+  &.-pasta-top-navigation .-pasta-nav > li a:hover, .-pasta-top-navigation .-pasta-nav > li a:focus,
+  &.-pasta-top-navigation .-pasta-nav .-pasta-open > a,
+  &.-pasta-top-navigation .-pasta-nav .-pasta-open > a:hover,
+  &.-pasta-top-navigation .-pasta-nav .-pasta-open > a:focus {
+    color: @navy;
+    background: #ffffff;
+  }
+
+  &.-pasta-top-navigation .-pasta-nav > li.-pasta-active a {
+    color: @navy;
+    background: #ffffff;
+  }
+
+  &.-pasta-fixed-nav #wrapper.-pasta-top-navigation #page-wrapper {
+    margin-top: 0;
+  }
+
+  &.-pasta-fixed-sidebar.-pasta-mini-navbar .-pasta-navbar-static-side {
+    width: 0;
+  }
+
+  &.-pasta-fixed-sidebar.-pasta-mini-navbar #page-wrapper {
+    margin: 0 0 0 0;
+  }
+
+  &.-pasta-body-small.-pasta-fixed-sidebar.-pasta-mini-navbar #page-wrapper {
+    margin: 0 0 0 0;
+  }
+
+  &.-pasta-body-small.-pasta-fixed-sidebar.-pasta-mini-navbar .-pasta-navbar-static-side {
+    width: @sidebar-width;
+    background-color: #ffffff;
+  }
+
+  &.-pasta-canvas-menu nav.-pasta-navbar-static-side {
+    z-index: 2001;
+    background: #ffffff;
+    height: 100%;
+    position: fixed;
+    display: none;
+  }
+
+}

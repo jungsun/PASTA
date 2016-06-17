@@ -1,0 +1,122 @@
+@media (min-width: 768px) {
+  #page-wrapper {
+    position: inherit;
+    margin: 0 0 0 @sidebar-width;
+    min-height: 1200px;
+  }
+
+  .-pasta-navbar-static-side {
+    z-index: 2001;
+    position: absolute;
+    width: @sidebar-width;
+  }
+
+  .-pasta-navbar-top-links .-pasta-dropdown-messages,
+  .-pasta-navbar-top-links .-pasta-dropdown-tasks,
+  .-pasta-navbar-top-links .-pasta-dropdown-alerts {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 768px) {
+
+  #page-wrapper {
+    position: inherit;
+    margin: 0 0 0 0;
+    min-height: 1000px;
+  }
+
+  .-pasta-body-small .-pasta-navbar-static-side {
+    display: none;
+    z-index: 2001;
+    position: absolute;
+    width: 70px;
+  }
+
+  .-pasta-body-small.-pasta-mini-navbar .-pasta-navbar-static-side {
+    display: block;
+  }
+
+  .-pasta-lock-word {
+    display: none;
+  }
+
+  .-pasta-navbar-form-custom {
+    display: none;
+  }
+
+  .-pasta-navbar-header {
+    display: inline;
+    float: left;
+  }
+
+  .-pasta-sidebard-panel {
+    z-index: 2;
+    position: relative;
+    width: auto;
+    min-height: 100% !important;
+  }
+
+  .-pasta-sidebar-content .-pasta-wrapper {
+    padding-right: 0;
+    z-index: 1;
+  }
+
+  .-pasta-fixed-sidebar.-pasta-body-small .-pasta-navbar-static-side {
+    display: none;
+    z-index: 2001;
+    position: fixed;
+    width: @sidebar-width;
+  }
+
+  .-pasta-fixed-sidebar.-pasta-body-small.-pasta-mini-navbar .-pasta-navbar-static-side {
+    display: block;
+  }
+
+  .-pasta-ibox-tools {
+    float: none;
+    text-align: right;
+    display: block;
+  }
+
+}
+
+@media (max-width: 350px) {
+
+  .-pasta-timeline-item .-pasta-date {
+    text-align: left;
+    width: 110px;
+    position: relative;
+    padding-top: 30px;
+  }
+
+  .-pasta-timeline-item .-pasta-date i {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+    border: 1px solid @border-color;
+    background: #f8f8f8;
+  }
+
+  .-pasta-timeline-item .-pasta-content {
+    border-left: none;
+    border-top: 1px solid @border-color;
+    padding-top: 10px;
+    min-height: 100px;
+  }
+
+  .-pasta-nav.-pasta-navbar-top-links li.-pasta-dropdown {
+    display: none;
+  }
+
+  .-pasta-ibox-tools {
+    float: none;
+    text-align: left;
+    display: inline-block;
+  }
+
+}
+

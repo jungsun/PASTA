@@ -1,0 +1,530 @@
+.-pasta-nav > li > a {
+  color: @nav-text-color;
+  font-weight: 600;
+  padding: 14px 20px 14px 25px;
+}
+
+.-pasta-nav.-pasta-navbar-right > li > a {
+  color: #999c9e;
+}
+
+.-pasta-nav > li.-pasta-active > a {
+  color: #ffffff;
+}
+
+.-pasta-navbar-default .-pasta-nav > li > a:hover, .-pasta-navbar-default .-pasta-nav > li > a:focus {
+  background-color: darken(@nav-bg, 3%);
+  color: white;
+}
+
+.-pasta-nav .-pasta-open > a, .-pasta-nav .-pasta-open > a:hover, .-pasta-nav .-pasta-open > a:focus {
+  background: #fff;
+}
+
+.-pasta-nav.-pasta-navbar-top-links > li > a:hover, .-pasta-nav.-pasta-navbar-top-links > li > a:focus {
+  background-color: transparent;
+}
+
+.-pasta-nav > li > a i {
+  margin-right: 6px;
+}
+
+.-pasta-navbar {
+  border: 0;
+}
+
+.-pasta-navbar-default {
+  background-color: transparent;
+  border-color: @nav-bg;
+}
+
+.-pasta-navbar-top-links li {
+  display: inline-block;
+}
+
+.-pasta-navbar-top-links li:last-child {
+  margin-right: 40px;
+}
+
+.-pasta-body-small .-pasta-navbar-top-links li:last-child {
+  margin-right: 0;
+}
+
+.-pasta-navbar-top-links li a {
+  padding: 20px 10px;
+  min-height: 50px;
+}
+
+.-pasta-dropdown-menu {
+  border: medium none;
+  border-radius: 3px;
+  box-shadow: 0 0 3px rgba(86, 96, 117, 0.7);
+  display: none;
+  float: left;
+  font-size: 12px;
+  left: 0;
+  list-style: none outside none;
+  padding: 0;
+  position: absolute;
+  text-shadow: none;
+  top: 100%;
+  z-index: 1000;
+}
+
+.-pasta-dropdown-menu > li > a {
+  border-radius: 3px;
+  color: inherit;
+  line-height: 25px;
+  margin: 4px;
+  text-align: left;
+  font-weight: normal;
+}
+
+.-pasta-dropdown-menu > li > a.-pasta-font-bold {
+  font-weight: 600;
+}
+
+.-pasta-navbar-top-links .-pasta-dropdown-menu li {
+  display: block;
+}
+
+.-pasta-navbar-top-links .-pasta-dropdown-menu li:last-child {
+  margin-right: 0;
+}
+
+.-pasta-navbar-top-links .-pasta-dropdown-menu li a {
+  padding: 3px 20px;
+  min-height: 0;
+}
+
+.-pasta-navbar-top-links .-pasta-dropdown-menu li a div {
+  white-space: normal;
+}
+
+.-pasta-navbar-top-links .-pasta-dropdown-messages,
+.-pasta-navbar-top-links .-pasta-dropdown-tasks,
+.-pasta-navbar-top-links .-pasta-dropdown-alerts {
+  width: 310px;
+  min-width: 0;
+}
+
+.-pasta-navbar-top-links .-pasta-dropdown-messages {
+  margin-left: 5px;
+}
+
+.-pasta-navbar-top-links .-pasta-dropdown-tasks {
+  margin-left: -59px;
+}
+
+.-pasta-navbar-top-links .-pasta-dropdown-alerts {
+  margin-left: -123px;
+}
+
+.-pasta-navbar-top-links .-pasta-dropdown-user {
+  right: 0;
+  left: auto;
+}
+
+.-pasta-dropdown-messages, .-pasta-dropdown-alerts {
+  padding: 10px 10px 10px 10px;
+}
+
+.-pasta-dropdown-messages li a, .-pasta-dropdown-alerts li a {
+  font-size: 12px;
+}
+
+.-pasta-dropdown-messages li em, .-pasta-dropdown-alerts li em {
+  font-size: 10px;
+}
+
+.-pasta-nav.-pasta-navbar-top-links .-pasta-dropdown-alerts a {
+  font-size: 12px;
+}
+
+.-pasta-nav-header {
+  padding: 33px 25px;
+  background: @nav-profil-pattern;
+
+}
+
+.-pasta-pace-done .-pasta-nav-header {
+  transition: all 0.4s;
+}
+
+.-pasta-nav > li.-pasta-active {
+  border-left: 4px solid darken(@navy, 2%);
+  background: darken(@nav-bg, 3%);
+}
+
+.-pasta-nav.-pasta-nav-second-level > li.-pasta-active {
+  border: none;
+}
+
+.-pasta-nav.-pasta-nav-second-level.-pasta-collapse[style] {
+  height: auto !important;
+}
+
+.-pasta-nav-header a {
+  color: #DFE4ED;
+}
+
+.-pasta-nav-header .-pasta-text-muted {
+  color: #8095a8;
+}
+
+.-pasta-minimalize-styl-2 {
+  padding: 4px 12px;
+  margin: 14px 5px 5px 20px;
+  font-size: 14px;
+  float: left;
+}
+
+.-pasta-navbar-form-custom {
+  float: left;
+  height: 50px;
+  padding: 0;
+  width: 200px;
+  display: inline-table;
+}
+
+.-pasta-navbar-form-custom .-pasta-form-group {
+  margin-bottom: 0;
+}
+
+.-pasta-nav.-pasta-navbar-top-links a {
+  font-size: 14px;
+}
+
+.-pasta-navbar-form-custom .-pasta-form-control {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border: medium none;
+  font-size: 14px;
+  height: 60px;
+  margin: 0;
+  z-index: 2000;
+}
+
+.-pasta-count-info .-pasta-label {
+  line-height: 12px;
+  padding: 2px 5px;
+  position: absolute;
+  right: 6px;
+  top: 12px;
+}
+
+.-pasta-arrow {
+  float: right;
+}
+
+.-pasta-fa.-pasta-arrow:before {
+  content: "\f104";
+}
+
+.-pasta-active > a > .-pasta-fa.-pasta-arrow:before {
+  content: "\f107";
+}
+
+.-pasta-nav-second-level li,
+.-pasta-nav-third-level li {
+  border-bottom: none !important;
+}
+
+.-pasta-nav-second-level li a {
+  padding: 7px 10px 7px 10px;
+  padding-left: 52px;
+}
+
+.-pasta-nav-third-level li a {
+  padding-left: 62px;
+}
+
+.-pasta-nav-second-level li:last-child {
+  margin-bottom: 10px;
+}
+
+body:not(.-pasta-fixed-sidebar):not(.-pasta-canvas-menu).-pasta-mini-navbar .-pasta-nav li:hover > .-pasta-nav-second-level,
+.-pasta-mini-navbar .-pasta-nav li:focus > .-pasta-nav-second-level {
+  display: block;
+  border-radius: 0 2px 2px 0;
+  min-width: 140px;
+  height: auto;
+}
+
+body.-pasta-mini-navbar .-pasta-navbar-default .-pasta-nav > li > .-pasta-nav-second-level li a {
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.-pasta-fixed-nav .-pasta-slimScrollDiv #side-menu {
+  padding-bottom: 60px;
+}
+
+.-pasta-mini-navbar .-pasta-nav-second-level li a {
+  padding: 10px 10px 10px 15px;
+}
+
+.-pasta-mini-navbar .-pasta-nav-second-level {
+  position: absolute;
+  left: 70px;
+  top: 0;
+  background-color: @nav-bg;
+  padding: 10px 10px 10px 10px;
+  font-size: 12px;
+}
+
+.-pasta-canvas-menu.-pasta-mini-navbar .-pasta-nav-second-level {
+  background: darken(@nav-bg, 3%);
+}
+
+.-pasta-mini-navbar li.-pasta-active .-pasta-nav-second-level {
+  left: 65px
+}
+
+.-pasta-navbar-default .-pasta-special_link a {
+  background: @navy;
+  color: white;
+}
+
+.-pasta-navbar-default .-pasta-special_link a:hover {
+  background: #17987e !important;
+  color: white;
+}
+
+.-pasta-navbar-default .-pasta-special_link a span.-pasta-label {
+  background: #fff;
+  color: @navy;
+}
+
+.-pasta-navbar-default .-pasta-landing_link a {
+  background: lighten(@navy, 3%);
+  color: white;
+}
+
+.-pasta-navbar-default .-pasta-landing_link a:hover {
+  background: @navy !important;
+  color: white;
+}
+
+.-pasta-navbar-default .-pasta-landing_link a span.-pasta-label {
+  background: #fff;
+  color: lighten(@navy, 3%);
+}
+
+.-pasta-logo-element {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  display: none;
+  padding: 18px 0;
+}
+
+.-pasta-pace-done .-pasta-navbar-static-side, .-pasta-pace-done .-pasta-nav-header, .-pasta-pace-done li.-pasta-active, .-pasta-pace-done #page-wrapper, .-pasta-pace-done .-pasta-footer {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.-pasta-navbar-fixed-top {
+  background: #fff;
+  transition-duration: 0.4s;
+  border-bottom: 1px solid #e7eaec !important;
+  z-index: 2030;
+}
+
+.-pasta-navbar-fixed-top, .-pasta-navbar-static-top {
+  background: @gray;
+}
+
+.-pasta-fixed-nav #wrapper {
+  margin-top: 0;
+}
+
+body.-pasta-fixed-nav #wrapper .-pasta-navbar-static-side,
+body.-pasta-fixed-nav #wrapper #page-wrapper {
+  margin-top: 60px;
+}
+
+body.-pasta-top-navigation.-pasta-fixed-nav #wrapper #page-wrapper {
+  margin-top: 0;
+}
+
+body.-pasta-fixed-nav.-pasta-fixed-nav-basic .-pasta-navbar-fixed-top {
+  left: 220px;
+}
+
+body.-pasta-fixed-nav.-pasta-fixed-nav-basic.-pasta-mini-navbar .-pasta-navbar-fixed-top {
+  left: 70px;
+}
+
+body.-pasta-fixed-nav.-pasta-fixed-nav-basic.-pasta-fixed-sidebar.-pasta-mini-navbar .-pasta-navbar-fixed-top {
+  left: 0;
+}
+
+body.-pasta-fixed-nav.-pasta-fixed-nav-basic #wrapper .-pasta-navbar-static-side {
+  margin-top: 0;
+}
+
+body.-pasta-fixed-nav.-pasta-fixed-nav-basic.-pasta-body-small .-pasta-navbar-fixed-top {
+  left: 0;
+}
+
+body.-pasta-fixed-nav.-pasta-fixed-nav-basic.-pasta-fixed-sidebar.-pasta-mini-navbar.-pasta-body-small .-pasta-navbar-fixed-top {
+  left: 220px;
+}
+
+.-pasta-fixed-nav .-pasta-minimalize-styl-2 {
+  margin: 14px 5px 5px 15px;
+}
+
+.-pasta-body-small .-pasta-navbar-fixed-top {
+  margin-left: 0;
+}
+
+body.-pasta-mini-navbar .-pasta-navbar-static-side {
+  width: 70px;
+}
+
+body.-pasta-mini-navbar .-pasta-profile-element, body.-pasta-mini-navbar .-pasta-nav-label, body.-pasta-mini-navbar .-pasta-navbar-default .-pasta-nav li a span {
+  display: none;
+}
+
+body.-pasta-canvas-menu .-pasta-profile-element {
+  display: block;
+}
+
+body:not(.-pasta-fixed-sidebar):not(.-pasta-canvas-menu).-pasta-mini-navbar .-pasta-nav-second-level {
+  display: none;
+}
+
+body.-pasta-mini-navbar .-pasta-navbar-default .-pasta-nav > li > a {
+  font-size: 16px;
+}
+
+body.-pasta-mini-navbar .-pasta-logo-element {
+  display: block;
+}
+
+body.-pasta-canvas-menu .-pasta-logo-element {
+  display: none;
+}
+
+body.-pasta-mini-navbar .-pasta-nav-header {
+  padding: 0;
+  background-color: @navy;
+}
+
+body.-pasta-canvas-menu .-pasta-nav-header {
+  padding: 33px 25px;
+}
+
+body.-pasta-mini-navbar #page-wrapper {
+  margin: 0 0 0 70px;
+}
+
+body.-pasta-fixed-sidebar.-pasta-mini-navbar .-pasta-footer,
+body.-pasta-canvas-menu.-pasta-mini-navbar .-pasta-footer {
+  margin: 0 0 0 0 !important;
+}
+
+body.-pasta-canvas-menu.-pasta-mini-navbar #page-wrapper,
+body.-pasta-canvas-menu.-pasta-mini-navbar .-pasta-footer {
+  margin: 0 0 0 0;
+}
+
+body.-pasta-fixed-sidebar .-pasta-navbar-static-side,
+body.-pasta-canvas-menu .-pasta-navbar-static-side {
+  position: fixed;
+  width: @sidebar-width;
+  z-index: 2001;
+  height: 100%;
+}
+
+body.-pasta-fixed-sidebar.-pasta-mini-navbar .-pasta-navbar-static-side {
+  width: 0;
+}
+
+body.-pasta-fixed-sidebar.-pasta-mini-navbar #page-wrapper {
+  margin: 0 0 0 0;
+}
+
+body.-pasta-body-small.-pasta-fixed-sidebar.-pasta-mini-navbar #page-wrapper {
+  margin: 0 0 0 @sidebar-width;
+}
+
+body.-pasta-body-small.-pasta-fixed-sidebar.-pasta-mini-navbar .-pasta-navbar-static-side {
+  width: @sidebar-width;
+}
+
+.-pasta-fixed-sidebar.-pasta-mini-navbar .-pasta-nav li:focus > .-pasta-nav-second-level,
+.-pasta-canvas-menu.-pasta-mini-navbar .-pasta-nav li:focus > .-pasta-nav-second-level {
+  display: block;
+  height: auto;
+}
+
+body.-pasta-fixed-sidebar.-pasta-mini-navbar .-pasta-navbar-default .-pasta-nav > li > .-pasta-nav-second-level li a {
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+body.-pasta-canvas-menu.-pasta-mini-navbar .-pasta-navbar-default .-pasta-nav > li > .-pasta-nav-second-level li a {
+  font-size: 13px;
+  border-radius: 3px;
+}
+
+.-pasta-fixed-sidebar.-pasta-mini-navbar .-pasta-nav-second-level li a,
+.-pasta-canvas-menu.-pasta-mini-navbar .-pasta-nav-second-level li a {
+  padding: 10px 10px 10px 15px;
+}
+
+.-pasta-fixed-sidebar.-pasta-mini-navbar .-pasta-nav-second-level,
+.-pasta-canvas-menu.-pasta-mini-navbar .-pasta-nav-second-level {
+  position: relative;
+  padding: 0;
+  font-size: 13px;
+}
+
+.-pasta-fixed-sidebar.-pasta-mini-navbar li.-pasta-active .-pasta-nav-second-level,
+.-pasta-canvas-menu.-pasta-mini-navbar li.-pasta-active .-pasta-nav-second-level {
+  left: 0
+}
+
+body.-pasta-fixed-sidebar.-pasta-mini-navbar .-pasta-navbar-default .-pasta-nav > li > a,
+body.-pasta-canvas-menu.-pasta-mini-navbar .-pasta-navbar-default .-pasta-nav > li > a {
+  font-size: 13px;
+}
+
+body.-pasta-fixed-sidebar.-pasta-mini-navbar .-pasta-nav-label,
+body.-pasta-fixed-sidebar.-pasta-mini-navbar .-pasta-navbar-default .-pasta-nav li a span,
+body.-pasta-canvas-menu.-pasta-mini-navbar .-pasta-nav-label,
+body.-pasta-canvas-menu.-pasta-mini-navbar .-pasta-navbar-default .-pasta-nav li a span {
+  display: inline;
+}
+
+body.-pasta-canvas-menu.-pasta-mini-navbar .-pasta-navbar-default .-pasta-nav li .-pasta-profile-element a span {
+  display: block;
+}
+
+.-pasta-canvas-menu.-pasta-mini-navbar .-pasta-nav-second-level li a,
+.-pasta-fixed-sidebar.-pasta-mini-navbar .-pasta-nav-second-level li a {
+  padding: 7px 10px 7px 52px
+}
+
+.-pasta-fixed-sidebar.-pasta-mini-navbar .-pasta-nav-second-level,
+.-pasta-canvas-menu.-pasta-mini-navbar .-pasta-nav-second-level {
+  left: 0
+}
+
+body.-pasta-canvas-menu nav.-pasta-navbar-static-side {
+  z-index: 2001;
+  background: #2f4050;
+  height: 100%;
+  position: fixed;
+  display: none;
+}
+
+body.-pasta-canvas-menu.-pasta-mini-navbar nav.-pasta-navbar-static-side {
+  display: block;
+  width: 220px;
+}

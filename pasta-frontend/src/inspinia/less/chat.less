@@ -1,0 +1,125 @@
+#small-chat {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+}
+
+#small-chat .-pasta-badge {
+  position: absolute;
+  top: -3px;
+  right: -4px;
+}
+
+.-pasta-open-small-chat {
+  height: 38px;
+  width: 38px;
+  display: block;
+  background: #1ab394;
+  padding: 9px 8px;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.-pasta-open-small-chat:hover {
+  color: white;
+  background: #1ab394;
+}
+
+.-pasta-small-chat-box {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 75px;
+  background: #fff;
+  border: 1px solid @border-color;
+  width: 230px;
+  height: 320px;
+  border-radius: 4px;
+}
+
+.-pasta-small-chat-box.-pasta-ng-small-chat {
+  display: block;
+}
+
+.-pasta-body-small {
+  .-pasta-small-chat-box {
+    bottom: 70px;
+    right: 20px;
+  }
+}
+
+.-pasta-small-chat-box.-pasta-active {
+  display: block;
+}
+
+.-pasta-small-chat-box {
+
+  .-pasta-heading {
+    background: @nav-bg;
+    padding: 8px 15px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .-pasta-chat-date {
+    opacity: 0.6;
+    font-size: 10px;
+    font-weight: normal;
+  }
+
+  .-pasta-content {
+    padding: 15px 15px;
+
+    .-pasta-author-name {
+      font-weight: bold;
+      margin-bottom: 3px;
+      font-size: 11px;
+    }
+
+    > div {
+      padding-bottom: 20px;
+    }
+
+    .-pasta-chat-message {
+      padding: 5px 10px;
+      border-radius: 6px;
+      font-size: 11px;
+      line-height: 14px;
+      max-width: 80%;
+      background: #f3f3f4;
+      margin-bottom: 10px;
+    }
+
+    .-pasta-chat-message.-pasta-active {
+      background: #1ab394;
+      color: #fff;
+    }
+
+    .-pasta-left {
+      text-align: left;
+      clear: both;
+
+      .-pasta-chat-message {
+        float: left;
+      }
+    }
+
+    .-pasta-right {
+      text-align: right;
+      clear: both;
+
+      .-pasta-chat-message {
+        float: right;
+      }
+
+    }
+
+  }
+
+  .-pasta-form-chat {
+    padding: 10px 10px;
+  }
+
+}
